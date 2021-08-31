@@ -29,6 +29,7 @@ class TelegramDriver extends HttpDriver
     const FILE_API_URL = 'https://api.telegram.org/file/bot';
     const LOGIN_EVENT = 'telegram_login';
     const GENERIC_EVENTS = [
+        'new_chat_participant',
         'new_chat_members',
         'left_chat_member',
         'new_chat_title',
